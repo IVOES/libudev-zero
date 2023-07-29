@@ -1,0 +1,212 @@
+udev_device.c:170:12: style: Condition '!udev_device->parent' is always true [knownConditionTrueFalse]
+    while (!udev_device->parent);
+           ^
+udev_device.c:148:20: note: Assuming condition 'udev_device->parent' is false
+    if (udev_device->parent) {
+                   ^
+udev_device.c:154:9: note: Assuming condition is false
+    if (!syspath) {
+        ^
+udev_device.c:170:12: note: Condition '!udev_device->parent' is always true
+    while (!udev_device->parent);
+           ^
+udev_device.c:142:11: style: The scope of the variable 'pos' can be reduced. [variableScope]
+    char *pos, *path, *syspath;
+          ^
+udev_device.c:178:17: style: The scope of the variable 'parent_subsystem' can be reduced. [variableScope]
+    const char *parent_subsystem, *parent_devtype;
+                ^
+udev_device.c:178:36: style: The scope of the variable 'parent_devtype' can be reduced. [variableScope]
+    const char *parent_subsystem, *parent_devtype;
+                                   ^
+udev_enumerate.c:155:17: style: The scope of the variable 'property' can be reduced. [variableScope]
+    const char *property, *property2, *value, *value2;
+                ^
+udev_enumerate.c:155:40: style: The scope of the variable 'value' can be reduced. [variableScope]
+    const char *property, *property2, *value, *value2;
+                                       ^
+udev_enumerate.c:156:42: style: The scope of the variable 'list_entry2' can be reduced. [variableScope]
+    struct udev_list_entry *list_entry, *list_entry2;
+                                         ^
+udev_monitor.c:101:13: style: The scope of the variable 'len' can be reduced. [variableScope]
+    ssize_t len;
+            ^
+udev_device.c:206:0: style: The function 'udev_device_get_action' is never used. [unusedFunction]
+
+^
+udev_device.c:216:0: style: The function 'udev_device_get_devlinks_list_entry' is never used. [unusedFunction]
+
+^
+udev_device.c:83:0: style: The function 'udev_device_get_devnode' is never used. [unusedFunction]
+
+^
+udev_device.c:106:0: style: The function 'udev_device_get_devnum' is never used. [unusedFunction]
+
+^
+udev_device.c:78:0: style: The function 'udev_device_get_devpath' is never used. [unusedFunction]
+
+^
+udev_device.c:130:0: style: The function 'udev_device_get_driver' is never used. [unusedFunction]
+
+^
+udev_device.c:201:0: style: The function 'udev_device_get_is_initialized' is never used. [unusedFunction]
+
+^
+udev_device.c:88:0: style: The function 'udev_device_get_seqnum' is never used. [unusedFunction]
+
+^
+udev_device.c:231:0: style: The function 'udev_device_get_sysattr_list_entry' is never used. [unusedFunction]
+
+^
+udev_device.c:73:0: style: The function 'udev_device_get_sysnum' is never used. [unusedFunction]
+
+^
+udev_device.c:226:0: style: The function 'udev_device_get_tags_list_entry' is never used. [unusedFunction]
+
+^
+udev_device.c:135:0: style: The function 'udev_device_get_udev' is never used. [unusedFunction]
+
+^
+udev_device.c:101:0: style: The function 'udev_device_get_usec_since_initialized' is never used. [unusedFunction]
+
+^
+udev_device.c:211:0: style: The function 'udev_device_has_tag' is never used. [unusedFunction]
+
+^
+udev_device.c:711:0: style: The function 'udev_device_new_from_device_id' is never used. [unusedFunction]
+
+^
+udev_device.c:595:0: style: The function 'udev_device_new_from_devnum' is never used. [unusedFunction]
+
+^
+udev_device.c:716:0: style: The function 'udev_device_new_from_environment' is never used. [unusedFunction]
+
+^
+udev_device.c:617:0: style: The function 'udev_device_new_from_subsystem_sysname' is never used. [unusedFunction]
+
+^
+udev_device.c:721:0: style: The function 'udev_device_ref' is never used. [unusedFunction]
+
+^
+udev_device.c:294:0: style: The function 'udev_device_set_sysattr_value' is never used. [unusedFunction]
+
+^
+udev_enumerate.c:88:0: style: The function 'udev_enumerate_add_match_is_initialized' is never used. [unusedFunction]
+
+^
+udev_enumerate.c:83:0: style: The function 'udev_enumerate_add_match_parent' is never used. [unusedFunction]
+
+^
+udev_enumerate.c:68:0: style: The function 'udev_enumerate_add_match_property' is never used. [unusedFunction]
+
+^
+udev_enumerate.c:48:0: style: The function 'udev_enumerate_add_match_subsystem' is never used. [unusedFunction]
+
+^
+udev_enumerate.c:58:0: style: The function 'udev_enumerate_add_match_sysattr' is never used. [unusedFunction]
+
+^
+udev_enumerate.c:73:0: style: The function 'udev_enumerate_add_match_sysname' is never used. [unusedFunction]
+
+^
+udev_enumerate.c:78:0: style: The function 'udev_enumerate_add_match_tag' is never used. [unusedFunction]
+
+^
+udev_enumerate.c:53:0: style: The function 'udev_enumerate_add_nomatch_subsystem' is never used. [unusedFunction]
+
+^
+udev_enumerate.c:63:0: style: The function 'udev_enumerate_add_nomatch_sysattr' is never used. [unusedFunction]
+
+^
+udev_enumerate.c:344:0: style: The function 'udev_enumerate_add_syspath' is never used. [unusedFunction]
+
+^
+udev_enumerate.c:339:0: style: The function 'udev_enumerate_get_list_entry' is never used. [unusedFunction]
+
+^
+udev_enumerate.c:349:0: style: The function 'udev_enumerate_get_udev' is never used. [unusedFunction]
+
+^
+udev_enumerate.c:354:0: style: The function 'udev_enumerate_new' is never used. [unusedFunction]
+
+^
+udev_enumerate.c:382:0: style: The function 'udev_enumerate_ref' is never used. [unusedFunction]
+
+^
+udev_enumerate.c:316:0: style: The function 'udev_enumerate_scan_devices' is never used. [unusedFunction]
+
+^
+udev_enumerate.c:334:0: style: The function 'udev_enumerate_scan_subsystems' is never used. [unusedFunction]
+
+^
+udev_enumerate.c:392:0: style: The function 'udev_enumerate_unref' is never used. [unusedFunction]
+
+^
+udev.c:74:0: style: The function 'udev_get_log_priority' is never used. [unusedFunction]
+
+^
+udev.c:94:0: style: The function 'udev_hwdb_get_properties_list_entry' is never used. [unusedFunction]
+
+^
+udev.c:79:0: style: The function 'udev_hwdb_new' is never used. [unusedFunction]
+
+^
+udev.c:84:0: style: The function 'udev_hwdb_ref' is never used. [unusedFunction]
+
+^
+udev.c:89:0: style: The function 'udev_hwdb_unref' is never used. [unusedFunction]
+
+^
+udev_monitor.c:144:0: style: The function 'udev_monitor_enable_receiving' is never used. [unusedFunction]
+
+^
+udev_monitor.c:182:0: style: The function 'udev_monitor_filter_add_match_subsystem_devtype' is never used. [unusedFunction]
+
+^
+udev_monitor.c:197:0: style: The function 'udev_monitor_filter_add_match_tag' is never used. [unusedFunction]
+
+^
+udev_monitor.c:177:0: style: The function 'udev_monitor_filter_remove' is never used. [unusedFunction]
+
+^
+udev_monitor.c:172:0: style: The function 'udev_monitor_filter_update' is never used. [unusedFunction]
+
+^
+udev_monitor.c:162:0: style: The function 'udev_monitor_get_fd' is never used. [unusedFunction]
+
+^
+udev_monitor.c:167:0: style: The function 'udev_monitor_get_udev' is never used. [unusedFunction]
+
+^
+udev_monitor.c:202:0: style: The function 'udev_monitor_new_from_netlink' is never used. [unusedFunction]
+
+^
+udev_monitor.c:94:0: style: The function 'udev_monitor_receive_device' is never used. [unusedFunction]
+
+^
+udev_monitor.c:239:0: style: The function 'udev_monitor_ref' is never used. [unusedFunction]
+
+^
+udev_monitor.c:157:0: style: The function 'udev_monitor_set_receive_buffer_size' is never used. [unusedFunction]
+
+^
+udev_monitor.c:249:0: style: The function 'udev_monitor_unref' is never used. [unusedFunction]
+
+^
+udev.c:26:0: style: The function 'udev_new' is never used. [unusedFunction]
+
+^
+udev.c:40:0: style: The function 'udev_ref' is never used. [unusedFunction]
+
+^
+udev.c:64:0: style: The function 'udev_set_log_fn' is never used. [unusedFunction]
+
+^
+udev.c:70:0: style: The function 'udev_set_log_priority' is never used. [unusedFunction]
+
+^
+udev.c:50:0: style: The function 'udev_unref' is never used. [unusedFunction]
+
+^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingIncludeSystem]
+
